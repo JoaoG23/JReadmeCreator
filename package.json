@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-fetch": "2.0",
+    "npm-check-updates": "^13.1.2"
+  },
+  "name": "readmegenerate",
+  "version": "1.0.0",
+  "description": "Gerador de Readme para futuras aplicacoes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Desenvolvidor",
+  "license": "MIT"
+}
