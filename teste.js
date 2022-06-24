@@ -43,7 +43,7 @@ class MakeAll {
             getData.forEach(smallData => {
                 startDiv += `<div>
                             <h3>${ smallData.title }</h3>
-                            <img width="200px" src='${ this.data[0].img[0].path }'>
+                            <img width="200px" src='${ this.data[0].data_content.path }'>
                             <p> ${ smallData.content }</p>
                             </div>`;
             });
