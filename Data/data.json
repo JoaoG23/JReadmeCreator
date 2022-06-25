@@ -1,0 +1,71 @@
+{
+   "titlemain":"JReadmeCreator",
+
+   "pages":[
+       {
+           "id":0,
+           "title":"Introdution",
+           "link": "introdution",
+            "content":"The JReadmeCreator is one solutions for to help devs at to make READMEs with easy form.",
+            "img":[
+               { "title":"Imagem1","path" :"" }
+            ]
+       },
+       {
+           "id":1,
+           "title":"Development",
+           "link": "development",
+            "content":"This develoment was done with only NodeJS ",
+            "img":[
+               { "title":"Imagem1","path" :"" }
+            ]
+       },
+       {
+           "id":2,
+           "title":"How to install",
+           "link": "howtoinstall",
+            "content":"Only clonne repository",
+            "img":[
+               { "title":"Imagem1","path" :"" }
+            ]
+       },
+       {
+           "id":3,
+           "title":"How to use",
+           "link": "howtouse",
+            "content":"1- Open the directiory, 2- Open file data.json, 3- Modify the json for create your README",
+            "img":[
+               { "title":"Imagem1","path" :"" }
+            ]
+       },
+       {
+           "id":4,
+           "link": "finalremarks",
+           "title":"Final remarks",
+            "content":"The project not is the better of world.",
+            "img":[
+               { "title":"Imagem1","path" :"" }
+            ]
+       },
+       {
+           "id":5,
+           "title":"Authors",
+           "link": "Authors",
+            "content":"Only I",
+            "img":[
+               { "title":"Imagem1","path" :"https://avatars.githubusercontent.com/u/80895578?v=4" }
+            ]
+       },
+       {
+           "id":6,
+           "title":"license",
+           "link": "license",
+            "content":"MIT",
+            "img":[
+               { "title":"Imagem1","path" :"[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)" }
+            ]
+       }
+   ]
+   
+}
+
