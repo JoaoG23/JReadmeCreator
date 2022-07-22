@@ -58,6 +58,7 @@ Emissão Inicial | 26/03/2022 | Nome do Desenvolvedor
                             <h3>${ smallData.title }</h3>
                             <img width="200px" src='${ smallData.img[0].path }'>
                             <div> ${ smallData.content }</div>
+                            <br>
                             </div>`;
                 counter++;
             });
