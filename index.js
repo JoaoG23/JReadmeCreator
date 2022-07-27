@@ -1,6 +1,6 @@
 // import fetch from "node-fetch";
 const fs = require('fs');
- const { pages,titlemain } = require('./Data/data.json');
+ const { pages,titlemain } = require('./data/data.json');
 
 
 class MakeAll {
@@ -56,7 +56,7 @@ Emissão Inicial | 26/03/2022 | Nome do Desenvolvedor
             newData.forEach(smallData => {
                 startDiv += `<div>
                             <h3>${ smallData.title }</h3>
-                            <img width="200px" src='${ smallData.img[0].path }'>
+                            <img width="500px" src='${ smallData.img[0].path }'>
                             <div> ${ smallData.content }</div>
                             <br>
                             </div>`;
@@ -84,7 +84,6 @@ fs.writeFile('./README.md', init , function (error) {
 
     console.log("Create start of page");
 });
-
 fs.appendFile('./README.md', index , function (error) {
 
     if (error) { throw error };
@@ -92,8 +91,7 @@ fs.appendFile('./README.md', index , function (error) {
     console.log("Inserting index");
 });
 
-
-
+setTimeout(() => {
     fs.appendFile('./README.md', corpo , function (error) {
     
         if (error) { throw error };
@@ -101,7 +99,12 @@ fs.appendFile('./README.md', index , function (error) {
         console.log(" Create body of page");
     });
 
-    
+
+},4000)    
+
+
+
+
 
 
 
