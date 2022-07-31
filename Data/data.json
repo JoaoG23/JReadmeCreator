@@ -8,16 +8,16 @@
            "link": "introdution",
             "content":"The JReadmeCreator is one solutions for to help devs at to make READMEs with easy form.",
             "img":[
-               { "title":"Imagem1","path" :"" }
+               { "title":"Imagem1","path" :"./assets/apres.gif" }
             ]
        },
        {
            "id":1,
            "title":"Development",
            "link": "development",
-            "content":"This develoment was done with only NodeJS ",
+            "content":" * This develoment was done with only NodeJS for help in the my docs of readmes ",
             "img":[
-               { "title":"Imagem1","path" :"" }
+               { "title":"Imagem1","path" :"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" }
             ]
        },
        {
@@ -26,16 +26,16 @@
            "link": "howtoinstall",
             "content":"Only clonne repository",
             "img":[
-               { "title":"Imagem1","path" :"" }
+               { "title":"Imagem1","path" :"./assets/insta.png" }
             ]
        },
        {
            "id":3,
            "title":"How to use",
            "link": "howtouse",
-            "content":"1- Open the directiory, 2- Open file data.json, 3- Modify the json for create your README",
+            "content":"1- Open the directiory, \n 2- Open file data.json, \n 3- Modify the json for create your README, \n  4- If you to want, you can put in images in inside data.json",
             "img":[
-               { "title":"Imagem1","path" :"" }
+               { "title":"Imagem1","path" :"./assets/use.png" }
             ]
        },
        {
@@ -44,7 +44,7 @@
            "title":"Final remarks",
             "content":"The project not is the better of world.",
             "img":[
-               { "title":"Imagem1","path" :"" }
+               { "title":"Imagem1","path" :"http://fee-he-he-heenay.tumblr.com/post/139490721357/2016-oscars-nominations-saw-242016-animated" }
             ]
        },
        {
@@ -53,7 +53,7 @@
            "link": "Authors",
             "content":"Only I",
             "img":[
-               { "title":"Imagem1","path" :"https://avatars.githubusercontent.com/u/80895578?v=4" }
+               { "title":"Imagem1","path" :"" }
             ]
        },
        {
