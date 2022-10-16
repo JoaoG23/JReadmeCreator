@@ -63,7 +63,6 @@ Emissão Inicial | 26/03/2022 | Nome do Desenvolvedor
                 counter++;
             });
 
-        // let finishDiv = '</>';
         let indexTemplate = startDiv;
         return indexTemplate;
 

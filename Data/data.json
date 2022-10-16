@@ -4,24 +4,33 @@
    "pages":[
        {
            "id":0,
-           "title":"Introdution",
+           "title":"Introdução",
            "link": "introdution",
-            "content":"The JReadmeCreator is one solutions for to help devs at to make READMEs with easy form.",
+            "content":"API em desenvolvimento ainda, mas sistema tem o intuito de gestionar as quantidade de pesos que alcançado na academia pelo usuário.",
             "img":[
                { "title":"Imagem1","path" :"./assets/apres.gif" }
             ]
        },
        {
            "id":1,
-           "title":"Development",
-           "link": "development",
-            "content":" * This develoment was done with only NodeJS for help in the my docs of readmes ",
+           "title":"Tecnologias Usadas",
+           "link": "techs",
+            "content":" * This ",
             "img":[
                { "title":"Imagem1","path" :"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" }
             ]
        },
        {
            "id":2,
+           "title":"Desenvolvimento e Requesitos",
+           "link": "development",
+            "content":" * This ",
+            "img":[
+               { "title":"Imagem1","path" :"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" }
+            ]
+       },
+       {
+           "id":3,
            "title":"How to install",
            "link": "howtoinstall",
             "content":"Only clonne repository",
@@ -30,7 +39,7 @@
             ]
        },
        {
-           "id":3,
+           "id":4,
            "title":"How to use",
            "link": "howtouse",
             "content":"1- Open the directiory, \n 2- Open file data.json, \n 3- Modify the json for create your README, \n  4- If you to want, you can put in images in inside data.json",
@@ -39,7 +48,7 @@
             ]
        },
        {
-           "id":4,
+           "id":5,
            "link": "finalremarks",
            "title":"Final remarks",
             "content":"The project not is the better of world.",
@@ -48,7 +57,7 @@
             ]
        },
        {
-           "id":5,
+           "id":6,
            "title":"Authors",
            "link": "Authors",
             "content":"Only I",
@@ -57,12 +66,12 @@
             ]
        },
        {
-           "id":6,
+           "id":7,
            "title":"license",
            "link": "license",
             "content":"MIT",
             "img":[
-               { "title":"Imagem1","path" :"[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)" }
+               { "title":"Imagem1","path" :"https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" }
             ]
        }
    ]
