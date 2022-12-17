@@ -8,6 +8,7 @@
   "description": "Gerador de Readme para futuras aplicacoes",
   "main": "index.js",
   "scripts": {
+    "start":"NODE_ENV=dev node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joao Desenvolvidor",

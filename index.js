@@ -1,6 +1,6 @@
 // import fetch from "node-fetch";
 const fs = require('fs');
- const { pages,titlemain } = require('./data/data.json');
+ const { pages,titlemain } = require('./data/pt.json');
 
 
 class MakeAll {
@@ -55,7 +55,7 @@ Emissão Inicial | 26/03/2022 | Nome do Desenvolvedor
 
             newData.forEach(smallData => {
                 startDiv += `<div>
-                            <h3>${ smallData.title }</h3>
+                            <h3><a href="${ smallData.link }">${ smallData.title }</a></h3>
                             <img width="500px" src='${ smallData.img[0].path }'>
                             <div> ${ smallData.content }</div>
                             <br>
@@ -73,7 +73,6 @@ let confectionPage = new MakeAll(titlemain, pages);
 let init = confectionPage.beginPage();
 let index  = confectionPage.index();
 let corpo = confectionPage.body();
-console.log(init);
 
 
 
